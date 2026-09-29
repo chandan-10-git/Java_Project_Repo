@@ -1,0 +1,166 @@
+
+02-Mini Project Workflow
+++++++++++++++++++++++++++
+1) Read FDD and Understand the requirements
+
+2) If you have any questions in requirements, notedown and ask functional team in daily meeting
+
+3) Design Database Tables ( Transactional & Non-Transactional )
+
+4) Prepare INSERT QUERIES TO INSERT Data into static tables (manually we have to insert in DB)
+
+5) Analyze components ( classes & methods )
+
+6) Create Project For Backend, and implement code for backend (REST API)
+
+7) Test Backend api using Swagger UI / POSTMAN
+
+8) Deploy backend app in CLOUD (HEROKU / AWS)
+
+
+
+DB ANALYSIS
+++++++++++++
+=> For 02-Mini Project we need total 4 tables
+
+1) USER_DTLS
+2) COUNTRY_MASTER
+3) STATE_MASTER
+4) CITY_MASTER
+	
+-> USER_DTLS table is called as transactional table that means application will perform insert/update/delete operations on the table.
+
+-> COUNTRY_MASTER, STATE_MASTER, CITY_MASTER tables are called as non-transactional tables or static tables. Application will only read the data from these tables. We need to insert the data into these tables manually.
+
+USER_DTLS
++++++++++
+USER_ID PRIMARY KEY
+FIRST_NAME
+LAST_NAME
+USER_EMAIL
+USER_PWD
+USER_MOBILE
+DOB
+GENDER
+CITY_ID
+STATE_ID
+COUNTRY_ID
+ACC_STATUS
+CREATED_DATE
+UPDATED_DATE
+
+COUNTRY_MASTER
+++++++++++++++
+COUNTRY_ID PRIMARY KEY
+COUNTRY_NAME
+
+STATE_MASTER
+++++++++++++
+STATE_ID PRIMARY KEY
+STATE_NAME
+COUNTRY_ID 
+
+
+CITY_MASTER
++++++++++++
+CITY_ID PRIMARY KEY
+CITY_NAME
+STATE_ID
+
+
+//SQL QUERIES TO INSERT DATA INTO COUNTRY_MASTER
+Insert Into COUNTRY_MASTER (COUNTRY_ID, COUNTRY_NAME) Values(1,'India');
+Insert Into COUNTRY_MASTER (COUNTRY_ID, COUNTRY_NAME) Values(2,'USA');
+
+//SQL QUERIES TO INSERT DATA INTO STATE_MASTER
+Insert Into STATES_MASTER (STATE_ID, COUNTRY_ID, STATE_NAME) Values(1,1,'Andhra Pradesh');
+Insert Into STATES_MASTER (STATE_ID, COUNTRY_ID, STATE_NAME) Values(2,1,'Karnataka');
+Insert Into STATES_MASTER (STATE_ID, COUNTRY_ID, STATE_NAME) Values(3,2,'New Jersy');
+insert into STATES_MASTER (STATE_ID, COUNTRY_ID, STATE_NAME) values(4,2,'Ohio');
+
+//SQL QUERIES TO INSERT DATA INTO CITY_MASTER
+Insert Into CITIES_MASTER (CITY_ID, CITY_NAME, STATE_ID) Values(1,'Vizag',1);
+Insert Into CITIES_MASTER (CITY_ID, CITY_NAME, STATE_ID) Values(2,'Guntur',1);
+Insert Into CITIES_MASTER (CITY_ID, CITY_NAME, STATE_ID) Values(3,'Banglore',2);
+Insert Into CITIES_MASTER (CITY_ID, CITY_NAME, STATE_ID) Values(4,'Mysore',2);
+Insert Into CITIES_MASTER (CITY_ID, CITY_NAME, STATE_ID) Values(5,'Maywood',3);
+Insert Into CITIES_MASTER (CITY_ID, CITY_NAME, STATE_ID) Values(6,'Westwood',3);
+Insert Into CITIES_MASTER (CITY_ID, CITY_NAME, STATE_ID) Values(7,'Oakwood',4);
+Insert Into CITIES_MASTER (CITY_ID, CITY_NAME, STATE_ID) Values(8,'Cuyahoga County',4);
+-----------------------------------------------------------------------------------------------
+
+1) Create a project with below dependencies
+
+	a) starter-data-jpa
+	b) h2
+	c) web-starter
+	d) mail-starter
+	e) project-lombok
+	f) devtools
+	g) swaager & swagger-ui
+
+2) Configure properties in application.properties file or application.yml file
+
+	a) datasource properties
+	b) ORM properties (ddl_auto and show_sql)
+	c) SMTP properties (For email sending)
+	d) application messages
+
+Note: We have to enable less-secure-apps for the email which we configure in SMTP Properties
+	(URL : https://myaccount.google.com/lesssecureapps)
+	
+	-> Switch ON "Less Secure Apps"
+
+
+3) Create required packages & classes in our project
+
+in.ashokit (base package) (boot start class will be available in this)
+
+in.ashokit.entity
+	 - CountryMasterEntity.java
+	 - StateMasterEntity.java
+	 - CityMasterEntity.java
+	 - UserDtlsEntity.java
+
+in.ashokit.repository
+	 - CountryMasterRepo.java (I)
+	 - StateMasterRepo.java (I)
+	 - CityMasterRepo.java (I)
+	 - UserDtlsRepo.java (I)
+
+in.ashokit.bindings
+	 - LoginForm.java
+	 - UserRegForm.java
+	 - UnlockAccForm.java
+	
+in.ashokit.service
+	 - UserMgmtService.java (I)
+	 - UserMgmtServiceImpl.java
+
+in.ashokit.rest
+	 - LoginRestController.java
+	 - RegistrationRestController.java
+	 - UnlockAccRestController.java
+	 - ForgotPwdRestController.java
+	 
+in.ashokit.util
+	 - EmailUtils.java
+
+in.ashokit.constants
+	 - AppConstants.java
+
+in.ashokit.props
+	 - AppProperties.java
+	
+in.ashokit.config
+	 - SwaggerConfig.java
+
+-------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+

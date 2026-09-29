@@ -1,0 +1,160 @@
+
+
+Classes
++++++++++++
+
+Contact.java  (Entity class)
+------------------------------
+int cid   (PK variable : auto-generated)
+String name
+String email
+long phno
+String activeSw (to make record as active/in-active)
+
+ContactRepository.java (I)
+-------------------------
+interface ContactRepository extends JpaRepository {
+		
+}
+
+ContactService.java (I)
+-----------------------
+String upsert (Contact contact);  (polymorphic method)
+
+List<Contact> getAllContacts( );
+
+Contact getContact (int cid);
+
+String deleteContact (int cid);
+
+Note: 'upsert' means it is used for inserting and updating 
+	(if record already available then update else insert)
+
+ContactRestController.java
+---------------------------
+
+@PostMapping("/contact")
+ResponseEntity<String> contact (Contact contact);
+
+@GetMapping("/contacts")
+ResponseEntity<List<Contact>> getAllContacts( );
+
+@GetMapping("/contact/{cid}")
+ResponseEntity<Contact> getContact(@PathVariable int cid);
+
+@DeleteMapping("/contact/{cid}")
+ResponseEntity<String> deleteContact(@PathVariable int cid);
+
+Note: Every RestController method should be binded to Http Protocol Method
+
+----------------------------------------------------------------------------------------------
+
+Assignement : How to use H2 Database in Spring Boot
+
+-----------------------------------------------------------------------------------------------
+
+1) Create Spring Starter Project with below dependencies
+
+	a) spring-boot-starter-web
+	b) spring-boot-starter-data-jpa
+	c) H2 (embedded database)
+	d) Project Lombok
+	e) spring-boot-devtools
+
+2) Configure properties in application.properties file
+
+	a) datasource
+	b) server.port  (if required)
+
+#datasource properties for H2 DB
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.datasource.username=sa
+spring.datasource.password=sa
+spring.datasource.driver-class-name=org.h2.Driver
+
+#server port
+server.port=9090
+
+Note: We can access H2 DB from browser using below URL
+
+		URL : http://localhost:9090/h2-console
+
+Note: By default we will get tomcat with 8080. If it is already using by other service then we have to change the port.
+
+3) Create Entity class and map with DB table using JPA annotations
+
+	a) @Entity
+	b) @Table
+	c) @Id
+	d) @GeneratedValue
+	e) @Column
+
+4) Create Repository interface by extending JpaRepository (to perform Crud operations)
+
+Note: We no need to implement this interface. Data Jpa will implement our interface in runtime using proxy design pattern. @Repository annotation is optional.
+
+5) Create Service interface with business methods and impement them using Impl class
+
+6) Create RestController class with methods to handle request & response
+
+7) Run the application and test it using PostMan
+
+8) Push the project into Git Hub Repository
+
+9) Deploy the project into HEROKU Cloud
+
+
+=============================================================================================================
+
+
+=> We have developed our application and tested using POSTMAN
+
+=> Our Application is running on local machine (only i can access this application)
+
+=> If everyone wants to access our application then we should deploy this application in cloud
+
+
+=> Create account in "Heroku" Cloud platform
+
+		URL : https://dashboard.heroku.com/
+
+
+=> Download and Install "Heroku CLI" software
+
+		URL : https://devcenter.heroku.com/articles/heroku-cli
+
+=> Open Cmd from project folder and type below command
+
+		cmd > heroku login
+
+Note: Press any key then it will open browser, then enter your heroku username and password to login in browser
+
+=> After login success create new application in heroku
+
+=> Click and "Deploy" tab in the application 
+
+=> We can see below commands (execute these commands from cmd)
+
+$ cd my-project/
+$ git init
+$ heroku git:remote -a <app-name>
+$ git add .
+$ git commit -am "make it better"
+$ git push heroku master
+
+=> After these commands executed successfully click on "Open App" button in heroku.. it will give your application Live URL.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

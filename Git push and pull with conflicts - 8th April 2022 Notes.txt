@@ -1,0 +1,219 @@
+Version Control Tools
++++++++++++++++++++++
+
+-> In realtime, multiple people will get involved in project development
+
+-> Developers will be working from different locations
+
+Below are two common problems we will face in project development
+-----------------------------------------------------------------
+1) Code Integration
+2) Monitoring code changes (Who, When, Why and What)
+
+-> Version Control Tools providing solution for above two problems
+
+-> We have several version control tools in the market
+
+1) SVN (Outdated)
+2) GIT Hub
+3) Bit Bucket
+
+-> By using version control tool/sofware we will create a Repository
+
+-> Repository is a location which is used to store project source code. For Every Project one Repository will be created in realtime. Every Repository will have its own URL.
+
+-> Team Members will connect to Repository using Repository URL to perform Code Integrations.
+
+-> Repository will have monitored access 
+		(It will track all the changes like who, when, why and what)
+
+Note: Once we join in the project, team lead or team member will share project Repository URL with us.
+
+Note: We will perform Push and Pull operations in the Repository
+
+	Push means sending code from our system to Repository 
+	Pull means taking latest code from Repository to our System
+
+
+GitHub
+++++++
+-> Git Hub is a cloud provider which is giving hosting, storage services over the web
+
+-> We can create source code repositories in GitHub to store our project code
+
+-> Git Hub providing both free & licensed accounts
+
+		Free Accounts : Limited Functionality
+		Licensed Account : All Functionalities
+
+-> Git Hub will internally uses git as a version control software
+
+
+Environment Setup
+-----------------
+1) Create account in github.com  
+
+	URL : https://github.com/
+
+2) Download Git Client software & install it
+
+	URL : https://git-scm.com/downloads/win
+
+-> After installation, right click on the mouse and check it
+    (Git GUI and Git Bash options will be displayed that means installation success)
+
+
+Git Hub Repositories
+----------------------
+-> Git hub providing 2 types of Repositories
+
+		1) public repository
+		2) private repository
+
+-> public repository means everybody can access and we will choose who can commit to repo
+
+-> private repository means we will choose who can access and who can commit to repo
+
+
+Creating Git Repository
+-----------------------
+-> Login into your github account
+
+-> Go to Repositories tab and click on 'Create New Repository'
+
+-> Enter Repo name and select as 'Public Repo' and create it.
+
+Note: URL will be generated for the repository
+
+	Repo URL : https://github.com/ashokitschool/JRTP20-App1.git
+
+-> It will display commands to push project into repo
+
+$ git init
+$ git commit -m "first commit"
+$ git branch -M main
+$ git remote add origin https://github.com/ashokitschool/JRTP20-App1.git
+$ git push -u origin main
+
+
+
+Push Maven Project into above Git repo by following given commands
+------------------------------------------------------------------
+-> Go to Maven Project folder and open Git Bash
+	(Right click on Mouse -> Open Gitbash here)
+
+
+-> Execute below commands in git bash to introduce yourself to git
+
+$ git config --global user.name "your-uname"
+$ git config --global user.email "your-email"
+
+-> Execute below git commands to push project into repo
+
+$ git init
+$ git add --a
+$ git commit -m "first commit"
+$ git branch -M main
+$ git remote add origin <git-repo-url>
+$ git push -u origin main
+
+Note: It will ask credentials for first time...
+
+Note: We can reset git password in "Credential Manager -> Windows Credentials Manager"
+
+-----------------------------------------------------------------------------------------------
+
+git status
+-----------
+
+-> This command is used to display the files which are staged and un-stage
+
+-> The files which are newly created/modified will be in un-staged state. These files are not eligible for commit.
+
+-> The files which are added to staging elgible for commit.
+
+-> To add file to staging area we will use 'git add' command
+
+
+git add
+-------
+-> This command is used to add file/files to staging area
+
+	$ git add <filename>  (It will add given file)
+	$ git add --a	(It will add all modified/newly created files)
+
+
+git restore
+-----------
+-> This command is used to unstage the file
+
+	$ git restore --staged <filename>
+
+git commit
+----------
+-> This command is used to commit staged files to local repository
+
+	$ git commit -m 'commit-msg'
+
+
+git push
+--------
+-> This command is used to push changes from local repository to central repository
+
+	$ git push
+
+
+Note: If we want to push code to brand new repository then we should configure remote repo url using below command.
+
+	$ git remote add origin <git-repo-url>
+
+
+git log
+-------
+-> This command is used to display commits history with commit-id and commit-message
+
+		$ git log
+
+
+git clone
+---------
+-> This command is used to take project from repository to local machine
+
+		$ git clone <repo-url>
+
+Note: When we join in the project, we have to clone the project from repo to start our work. We can take repo url from team members.
+
+
+git pull
+--------
+-> This command is used to take latest changes from repository
+
+		$ git pull
+
+
+Note: 
+-> clone command we will use for first time to take entire project from repository.
+-> pull command we will use daily, to take latest change from repository.
+
+
+-> We should be very careful while executing 'pull' command because it may give conflicts if we have different changes in central reposiotyr and local repository.
+
+Best Practise : Before making any changes, first take latest changes from repository using pull command. Before pushing changes, take latest changes then merge your changes and push it.
+
+Note: Getting conflicts is common problem, we have to resolve conflicts manually and we have to push the files.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

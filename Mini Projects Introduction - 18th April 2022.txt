@@ -1,0 +1,158 @@
+In last session we discussed about 'Project Lombok'
+
+Eclipse Top 20 shourtcut keys video shared
+
+Java Code Debugging In IDE video shared
+--------------------------------------------------------------------------------------
+
+maven
+github
+bitbucket
+source tree
+agile with jira
+
+--------------------------------------------------------------------------------------------
+Mini Projects Development
+---------------------------------------------------------------------------------------------
+
+-> Real-environment culture
+
+-> To improve your analysis skills
+
+-> To understand project development procedure
+
+-> To improve coding skills
+
+-> To improve problem solving skills
+
+Note: In this part, we will develop 3 mini projects. These 3 mini projects are equal to 3 modules in our Major Project.
+
+01 : Crud Operations ( fullstack development )
+
+02 : User Management ( fullstack development )
+
+03 : Dynamic Search & Reports Generation ( fullstack development )
+
+
+Note: If you do these 3 mini projects then you will get full clarity on projects development
+      (where to start, how to start, how to code, how to test and how to deploy)
+
+-> For these projects i will do live coding and i want you also to do these projects on your own
+
+-> If you do these 3 projects then defentley your confidence levels will increase to attend interview.
+
+-> The main aim of developing these mini projects to make our students as 
+	Independent Programmers
+
+---------------------------------------------------------------------------------------------
+
+Note : Assignements Checking will be there for all 3 mini projects. You guys should submit your assignment within given timeline.
+
+Note: If you don't complete your assingnmet, then i will not allow you for the classes.
+
+-> Assignment completion is mandatory in JRTP batches
+
+---------------------------------------------------------------------------------------------
+Next 30 days very crucial for 20-JRTP students
+( complete Programming => backend + frontend )
+---------------------------------------------------------------------------------------------
+
+
+-> For every project one Functional Team will be available
+
+-> Functional Team will collect Requirements from the client
+
+-> Functional Team will prepare BRD
+
+		BRD -> Business Requirements Document
+
+Note: BRD contains high level requirements
+
+-> BRD will be submitted to client for review
+
+-> Client will check BRD and will approve BRD (if all requirements are added in BRD)
+
+-> Based on Approved BRD, functional team will prepare FDD
+
+		FDD -> Functional Design Document
+
+Note: FDD contains detailed information about requirements
+
+-> FDD will be submitted to client for review
+
+-> Client will review FDD and will provide approval (if client satisfied)
+
+-> Once FDD approved then Functional Team will share FDD to Development & Testing Team
+
+-> Devlopers and Testers should read FDD and should understand Requirements in FDD
+
+-> If Developer/Testers are having any doubts in FDD then we need to discuss with Functional Team regarding doubts and get clarifications
+
+		( Daily Meetings will be there to discuss requirements and doubts )
+
+-> Once all your doubts are clarified then you should start your work
+
+---------------------------------------------------------------------------------------------
+
+1) Analyze requirements given in FDD
+
+2) If any doubts, discuss with Functional team and get clarifications
+
+Note: Do reverse KT (explain your understanding to Functional Team)
+
+3) Analyze DB part (No. of tables required and columns required in each table)
+
+4) Analyze classes & methods required to implement
+
+5) Implement Coding
+
+6) Test the functionality
+
+7) Push the code to repository
+
+8) Deploy the code to server
+
+---------------------------------------------------------------------------------------------
+Uploaded 01-MiniProject-FDD in portal. Download that and  Read that FDD and ask your doubts in Tomorrow's class.
+---------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

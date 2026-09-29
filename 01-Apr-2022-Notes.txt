@@ -1,0 +1,843 @@
+
+Java Realtime Project (Fullstack Development) => 20-JRTP
+
+
+What is the main aim of project training ?
+------------------------------------------
+
+-> People completing these courses in the institutes
+
+Core Java
+Adv Java
+Spring
+Hibernate
+Spring Boot & Microservices
+
+-> AFter completion of theses courses are you able to develop one project end to end ?
+
+
+1) Can you tell me where to use OOPS in the Project ?
+
+2) Can you tell me where to use I/O streams in the project?
+
+3) Can you tell me where to use Collections in the Project?
+
+4) Can you tell me where to use Multi Threading the project?
+
+5) Where to use lambdas in the project ?
+
+6) Where to use Streams in the project?
+
+7) How to implement webservice calls in the project ?
+
+8) How to handle exceptions the project ?
+
+9) How to implement security in the project?
+
+
+=============================================================================================
+
+In this course we are going to develop applications with below tech stack
+
+JDK 1.8
+Spring Boot
+REST APIs
+Microservices
+Angular 13
+AWS Cloud
+20 + Realtime Tools
+---------------------------------------------------------------------------------------------
+
+
+
+
+Java Realtime-Project (Fullstack Development) - Online Training
+
+(20-JRTP)
+
+Why we need to do this java realtime-project training ?
+Course Details (Pre-requisites & Course Content)
+-----------------------------------------------------------------------------------------------
+
+-> Now a days companies are looking for Fullstack Developer 
+
+
+	Fullstack = Front End Development + Backend Development
+
+
+-> Front end means user interface which will be displayed on web pages
+
+-> Backend means the business logic of our application which will not be displayed for end user
+
+Note: When user performs some operation on the front end then backend logic will execute
+
+
+-> Now a days Fullstack developers are having lot of demand in the market (high packages)
+
+
+
+Java Fullstack Developer
+------------------------
+
+Backend Technologies
+---------------------
+Core Java
+Adv Java
+Hibernate
+Spring Boot
+REST APIs
+Microservices
+
+
+Core Java : Fundamental concepts of java 
+----------------------------------------
+(syntaxes, data types, variables, methods, constructors, arrays, strings, oops, io streams, threads, exception handling, generics, annotations, lambdas, streams, collections)
+
+-> In core java we will learn how to write programs and how to build logics
+
+
+Adv Java : Advanced concepts in java programming
+-------------------------------------------------
+	JDBC : Connecting to database with Java program to perform DB operations
+
+				 JDBC
+		Java App  -------------------------- Database
+
+	Servlets : To make our application as web application
+              (Everybody can access our application using internet)
+
+	
+	JSP : Java Server Pages (User interface) --- Outdatd in the market
+	Note: People are using JS technologies (Angular & React) For Frontend Development.
+
+
+Hibernate
+----------
+-> Hibernate is an ORM framework
+-> Hibernate Framework is developed on top of JDBC
+-> Hibernate framework providing few common logic to perform DB operations
+   (driver loading, connections, cpool, transcations, exceptions etcc)
+
+
+      Java App -----------> Hibernate --------> JDBC ----------> Database
+
+
+Spring Framework
+-----------------
+-> Spring is an application development framework
+-> Using Spring we can develop applications with loosely coupling
+-> Standalone, web, distributed applications can be developed using Spring
+-> In Spring Framework we have to take of configurations
+
+Spring Boot
+-----------
+-> Spring Boot is one approach to develop Spring Based applications
+-> The main advantage of Spring Boot is Auto-Configuration
+-> Spring Boot is trending in the market
+
+REST APIs
+---------
+-> REST APIs are used to develop distributed applications
+
+-> If one application is communicating with another application then we will call it as distributed application
+
+-> Application Backeng logics are implementing using REST APIs
+
+
+Microservices
+-------------
+-> Microservices is a design Pattern to develop applications with loosely coupled functionalities
+
+
+Note: Now a days we are using Spring Boot to develop Back End Rest APIs by following Microservices Design Pattern
+
+
+
+
+
+
+Front End Technologies
+--------------------------
+HTML 
+CSS
+Boot Strap
+Java Script
+Angular or React JS
+
+
+Java Fullstack Developer
+------------------------
+Backend Tech Stack : Core Java + Adv Java + Hibernate + Spring Boot + REST APIs + Microservices
+
+Front End Tech Stack : HTML + CSS + Boot Strap + Java Script + Angular or React JS
+
+Database : Oracle / MySQL/ PostgreSql / MongoDB
+
+Tools : Maven, Git Hub, Jenkins, Sonar Qube , JUnit, Jacocco, JMETER, Jenkins, Docker, K8S
+
+Cloud : AWS / Azure / GCP 
+
+
+
+
+
+Java Real-Time Project (20-JRTP)
+--------------------------------
+
+Pre-Requisites : 
+----------------
+Core Java, Adv Java, SQL, Spring Core, Hibernate Basics
+
+Note: Spring Boot & Microservices (Paralelly You can learn)
+
+Course Content
+----------------
+Part-1 : Software Industry Details
+
+Part-2 : Realtime Tools (20+)
+
+Part-3 : AWS Cloud
+
+Part-4 : Angular 13
+
+Part-5 : Mini Projects (3)
+
+Part-6 : Major Project (1)
+
+Part-7 : Interview Guide(FAQs, Resume preparation, Mock interviews, Placements)
+
+
+Daily class timings : 9:00 AM - 10:30 AM (IST) (Mon-Sat)
+Duration : 3.5 Months
+
+----------------------------------------------------------------------------------------------
+Types of software Companies
+----------------------------------------------------------------------------------------------
+
+We can categorize IT companies into 3 types
+
+1) Product Based Companies
+
+2) Service Based Companies
+
+3) Outsourcing Companies
+
+Product Based Companies
+-----------------------
+-> The companies which are developing projects/products and selling to customers in the market are called as Product Based Companies.
+
+	Ex: Microsoft, Apple, HP, DELL, Oracle, Sony etc......
+
+-> Product Based Companies will focus mainley on below topics in the interview
+
+	  a) Data Structures
+	  b) Algorithms
+	  c) Problems Solving
+	  d) Design Patterns
+          e) Coding Test
+
+-> Product Based Companies will provide high packages
+
+	    Avg Package = no.of.years.of.exp * 8 lakhs
+
+
+
+Service Based Companies
+-----------------------
+-> The companies which are developing projects as per client given rquirements are called as Service Based Companies.
+
+  Ex : TCS, Infy, Wipro, TechM, Cognizent, Capgemeni, Deloitte, Accenture, HCL etc..
+
+-> Service Based Companies will focus mainly on below topics in interview
+
+			a) Coding Test
+			b) Fullstack Developer (Back end + Front End)
+			c) Microservice
+			d) Spring Boot
+			c) REST API
+			d) Angular / React JS	
+			e) Cloud Platforms
+
+-> Service Based Companies package structure will be like this
+
+		Package = no.of.years.of.exp * 4 Lakhs
+
+
+Note : In service based companies, ONSITE opportunities will be available
+       (Going to client location based on project requirement)
+
+
+Outsourcing Companies
+----------------------
+-> The companies which are providing employees for other companies on contract basis are called as Outsouring Companies.
+
+		Ex: sourceone, magnainfotech, a2zresources etc..
+
+Note: Now a days most of service based companies are also doing outsourcing business
+
+		Parent		    Client
+		------		    ------
+		HCL ---------------> Microsoft
+
+		Capgemini -------- > Oracle
+
+		CTS ---------------> JPMC
+
+		TCS --------------> DELL
+
+
+-> You will do work in client company and you will get salary from parent company
+
+-----------------------------------------------------------------------------------------------
+Types of Projects In IT
+-----------------------------------------------------------------------------------------------
+
+Q) What is Software Project ?
+
+Ans) Set of programs are called as Project
+
+Q) Why we need to develop projects?
+Ans) 
+
+Software projects are used to reduce human efforts 
+Software projects are used to simplify humans life by automating the work
+
+Ex: Ticket Booking, online shopping, banking operations, food orders, money transfer etc...
+
+-----------------------------------------------------------------------------------------------
+
+In IT companies we can see below types of Projects
+
+1) Scratch Development Projects
+
+2) Maintenence / Support Projects
+
+3) Migration Projects
+
+
+-> Scratch development means developing the project from very beginning (brand new)
+
+-> Maintenence / Support means making changes to existing projects
+
+		a) Change Request (CR)
+		b) Enhancement
+		c) Bug Fixing
+
+	-> Change Request means modifying existing functionality (CR)
+	-> Enhancement means adding new functionality in the existing project
+	-> Bug Fixing means resolving the exceptions occuring in the project
+
+-> Migration Project means converting project from old technology to lastest technology
+
+		Mainframework project ----------------> Java Project
+
+		Struts ------------------> spring boot
+
+		java 1.6 v -------------> Java 11
+
+-----------------------------------------------------------------------------------------------
+Types of companies
+What is project
+Why Project
+Types of Projects
+-----------------------------------------------------------------------------------------------
+Types of Jobs in Software Industry
+-----------------------------------------------------------------------------------------------
+-> IT companies are providing 2 types of jobs
+
+a) Permanent Job
+b) Contract Job
+
+-> In permanent job more benefits will be available for the employee... those are
+
+		a) Profident Fund (PF) (12% of Basic Salary) 
+		    (Employee Contribution + Employer Contribution)
+
+		b) Health Insurance (For You + For Your Family)
+
+		c) Notice Period
+
+Note: If you want to leave the company you have to serve notice period. If company want to terminate you from your job then company should pay notice period salary.
+
+Note: Company to Company Notice period duration will be different
+
+		Deloitte  --  2 Months
+		Accenture --  3 Months
+		Infy	  --  3 Months
+		
+
+Note: Some companies will provide BuyOut option. That means we can buy our notice period by paying amount to company. (Its depends on Company decision)
+	
+Note: We can negotiate our notice period with manager.
+
+
+-> Contract jobs are temporary jobs. When the work is there in project then company will take you and once the work is completed company will terminate you from the job ...
+
+-> For contract jobs notice period will be 1 week or 10 days.
+
+-> Employee benefits will be less when you go for Contract jobs
+
+
+Note: Sometimes companies will take contract employees and based on their performance they will convert contract job to permanent job.
+
+-----------------------------------------------------------------------------------------------
+Types of Teams in the project
+----------------------------------------------------------------------------------------------
+1) Onshore team
+2) Offshore team
+
+-> The team which is working in client location is called as Onshore team.
+
+-> The team which is working in non-client location is called as Offshore team.
+
+-> Mainly Business Analyst or Functional Team members will work in client location.
+-> Development, Testing & Deployments will done by offshore team members.
+
+
+-> Onshore & offshore team members will communicate daily through bridge calls to discuss project related details.
+
+-> For bridge calls companies will use below softwares
+
+	Zoom, Skype Business, Microsoft Teams etc....
+
+-> For sending emails in the company we will use Microsoft Outlook
+
+-> Company will provide official email for us
+
+	email : ashok.b@tcs.com
+
+----------------------------------------------------------------------------------------------
+Types of Jobs
+	Permanent Job
+	Contract Job
+Types of Teams
+	Onshore Team
+	Offshore Team
+Bridge Call
+-----------------------------------------------------------------------------------------------
+Designations in IT industry (Roles in IT Companies)
+-----------------------------------------------------------------------------------------------
+-> Company to company Designations will be different
+
+
+-> Software Trainee / Associate Analyst (0 - 2 years Exp)
+
+-> Software Engineer / Business Technology Analyst / System Engineer (2 - 4 Years)
+
+-> Consultant / System Engineer Level - 4 (4 - 6 Years)
+
+-> Sr. Consultant / Team Lead / Tech Lead / Sr.S/w Engineer - (6 - 9 years)
+
+-> Manager (9 - 12 Years)
+
+-> Sr. Manager (12 - 16 Years)
+
+-> Director (16 - 20 Years)
+
+-> Vice Pricedent (20+ Years)
+
+
+-> Based on our performance company will give promotion from one role to another role.
+-> Based on the Roles company will decide salary structure
+-----------------------------------------------------------------------------------------------
+Types of Software Companies
+	1) Product Based
+	2) Service Based
+	3) Outsourcing 
+
+Types of Projects
+	1) Scratch Development
+	2) Maintenence/Support
+	3) Migration
+
+Types Of Jobs
+	1) Permanent Job
+	2) Contract Job
+
+Types of Teams
+	1) Onshore Team
+	2) Offshore Team
+
+Bridge Call
+
+Roles in IT Companies
+
+-----------------------------------------------------------------------------------------------
+How to cover Gap as experience
+----------------------------------------------------------------------------------------------
+
+-> After this course completion, you can keep 3 to 4 years exp and you can attend interviews
+
+Scenario-1
+-----------
+Gradudated in 2019
+From 2019 to 2022 (3 Years Gap)
+You can show that 3 years gap as exp
+
+Scenario-2
+----------
+Graduated in 2018
+From 2018 to 2022 (4 Years Gap)
+You can say Attended trainings For 5 Months
+You can show 3.5 Years exp
+
+Scenario-3
+----------
+Graduated in 2017
+From 2017 to 2022 (5 Years Gap)
+2 years i have done non-it job (2017 - 2019)
+You can show 3 Years exp in IT Job (2019 - 2022)
+
+
+Scenario-4
+-----------
+Graduated in 2016
+From 2016 to 2022 (6 Years gap)
+2.5 years worked as Lab assistent in Engineering College (2016 - 2019)
+3.5 Years Exp in IT Field (2019 - 2022)
+
+
+Scenario-4
+-----------
+Graduated in 2015
+From 2015 to 2022 (7 Years gap)
+3.5 Years Gap you can show as Non-IT job
+3.5 Years gap you can show as IT exp
+
+
+Scenario-5
+----------
+I am already having pf account, will it become a problem?
+
+-> If you have pf number or if you don't have pf number that will not become issue
+-> Every Company will provide you new pf account.
+
+
+Scenario-6
+----------
+I am working in IT company from 2 years as a core java developer.
+Can i get the job in other IT company with this experience ?
+
+In this course you will learn Angular, AWS, Fullstack Development
+After this course you prepare your resume as fullstack developer with Spring Boot, REST API, Microservices, Angular & AWS.
+
+
+
+To show the gap as experience you need to submit below documents to company
+---------------------------------------------------------------------------
+1) Offer letter
+2) Hike Letter
+3) Last 3 Months Payslips
+4) Bank Stmts
+5) Form-16
+6) Experience Letter
+7) Reliving Letter
+
+
+Note: All the above documents consultancy people will provide for you (20k)
+
+
+-> After Joining in the company with fake exp, if our Background Verification Got Failed no need worry because they will not kill us. They will just terminate us from the job. We can't go to that company in future.
+
+
+Note: 70-80 % of people in IT are fake experienced people only.
+
+
+-> IT companies also knows that people are coming to interviews with fake exp. Companies are having requirement for Skilled People. If you have strong technical skills they will select you in the interview.
+
+
+-----------------------------------------------------------------------------------------------
+After completion of our Java Realtime-Project Training how much package we can expect ?
+
+With 4 Years Exp one lady got 23 Lakhs Package
+With 3 Years Exp one boy got 19.8 lakhs package
+
+-----------------------------------------------------------------------------------------------
+
+Module-1 : Software Industry Details --- Completed
+
+
+Module-2 : Java Realtime Tools
+------------------------------
+
+-> As part of project development we will use several tools
+
+1) Build Tools : Ant, Maven and Gradle
+
+		- Project Creation
+		- Dependencies/Jars downloading
+		- Project Compilation
+		- Execute Unit Test Cases
+		- Project Packaging (jar or war)
+
+2) Code Repository Tools : SVN, GIT Hub and BitBucket
+
+		- Code Integration at one place
+		- Monitored Access (who, when, why and what)
+
+3) Project Management Tool : JIRA
+
+		- Project work planning
+		- Work allocation to team members
+		- Work status tracking
+		- Bug Reporting
+
+4) Logging Tools : Log4J, Log4J2, Logback, Logstash & SLF4J
+
+		- To generate log messages of application
+		- Tracking Application execution details
+		- Tracking Exceptions Occured in application
+
+5) Log Monitoring Tools : Putty, WinScp and Splunk
+
+		- To see log messages of our application
+
+6) Code Review Tools : PMD and Sonar Qube
+
+		 - To find developer mistakes in the code
+
+7) Unit Testing Tool : JUNIT with Mocking
+
+		 - To test unit amount of work
+		 - Junit is used to automate unit testing
+		 - Mocking is used for isolated unit testing
+
+
+8) Code Coverage : Jacocco and Cobertura
+
+		 - To identify how many lines executed in unit testing
+		 - It will provide lines executed and lines not executed
+		 - Code Coverage report will help to improve unit testing scenarios
+
+9) CI CD Deployment Tools : Jenkins
+
+		 - To automate application deployment process
+		 - Deployment Schedules
+
+10) API Testing tool : Postman and Swagger UI
+
+		 - To test backend rest apis
+		 - Swagger can generate rest api documentation also
+
+11) Containerization Tool : Docker
+
+		  - To generate application and its dependencies as one container
+
+12) Orchestration Tool : Kubernetes (K8S)
+
+		  - To deploy docker containers on cluster
+
+13) Reports Generation : Apache POI (Excel) & IText API (PDF)
+
+		   - Excel Report generation
+		   - Pdf report
+
+14) Message Queue : Apache Kafka
+
+		   - To process stream of data
+
+15) Distributed Cache : Redis Cache
+
+		   - Cache is used to reduce no.of db calls
+		   - Cache is used to improve performance of the application
+
+16) Performance Testing : JMETER and HP Load Runner
+		
+		   - To test application stability and responsiveness
+
+
+=> Along with coding we should have practical knowledge on above tools also
+
+
+
+Build Tools
+++++++++++++++
+-> Build tools are used to automate application build process
+
+-> Build tools are going to perform below operations
+
+1) Create Project Structure
+2) Download Required Dependencies (jars)
+3) Compile Source Code
+4) Execute Unit Test cases
+5) Package our project (jar or war)
+
+-> To Automate build process of java application we have 3 build tools
+
+		1) Ant (Outdated)
+		2) Maven
+		3) Gradle
+
+Note: Spring Boot supports both Maven and Gradle to create boot applications.
+
+Apache Maven
+++++++++++++
+
+-> Maven is an open source software given by Apache organization
+
+-> Maven is acting as build tool for java applicatons
+
+-> Maven objectivies
+
+	a) Making the build process easy
+	b) Providing an uniform build system
+	c) Providing quality project information
+	d) Encouraging better development practices
+
+
+Maven Environment Setup
++++++++++++++++++++++++
+
+1) Download maven software from official website (zip file)
+
+		URL : https://maven.apache.org/download.cgi
+	 	File Name: apache-maven-3.8.5-bin.zip
+
+2) Extract zip file and set MAVEN_HOME in environment variable
+
+3) Set Path for Maven in Environment variables
+
+4) Set JAVA_HOME also in environment variables
+
+		JAVA_HOME = C:\Program Files\Java\jdk1.8.0_201
+		MAVEN_HOME = C:\apache-maven-3.6.0
+
+Note: Maven Path we have to set upto maven bin directory
+
+		C:\apache-maven-3.6.0\bin
+	
+=> To verify maven setup, open command prompt and execute below command
+
+		$ mvn -v
+
+Note: It should display version of the maven. If it is displaying version that means maven setup is successfull.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

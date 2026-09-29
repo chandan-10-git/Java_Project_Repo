@@ -1,0 +1,53 @@
+--------------------------------------------------------------------------------------------------------------
+Swagger
+--------------------------------------------------------------------------------------------------------------
+
+-> Swagger is a third party api 
+
+-> Swagger is used to generate documentation for REST API
+
+-> Swagger UI is available to test REST API
+
+-> Swagger UI provides beautiful User interface to test REST api
+
+-> To use swagger in our project, we should add below dependencies
+
+
+<dependency>
+    <groupId>io.springfox</groupId>
+    <artifactId>springfox-swagger2</artifactId>
+    <version>2.8.0</version>
+</dependency>
+<dependency>
+    <groupId>io.springfox</groupId>
+    <artifactId>springfox-swagger-ui</artifactId>
+    <version>2.8.0</version>
+</dependency>
+
+-> After adding dependency, we need to create SwaggerConfig class. In this class we will specify for which classes it has to generate documentation.
+
+--------------------------------------------------------------------------------------------------------
+@Configuration
+@EnableSwagger2
+public class SwaggerConfig {
+	
+	@Bean
+	public Docket apiDoc() {
+		
+		return new Docket(DocumentationType.SWAGGER_2)
+				   .select()
+				   .apis(RequestHandlerSelectors.basePackage("in.ashokit.rest"))
+				   .paths(PathSelectors.any())
+				   .build();
+	}
+}
+-------------------------------------------------------------------------------------------------------
+
+Swagger URLS
+--------------
+
+For Json documentation : http://localhost:8080/v2/api-docs
+
+For Swagger UI : http://localhost:8080/swagger-ui.html
+
+--------------------------------------------------------------------------------------------------------

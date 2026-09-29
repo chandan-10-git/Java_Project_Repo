@@ -1,0 +1,104 @@
+Software Industry
++++++++++++++++++++
+What is Project
+Types of projects
+Types of companies
+Interview Process in companies
+Role Chart
+Bridge Calls
+
+Realtime Tools
++++++++++++++++
+Maven
+Git Hub
+BitBucket
+Source Tree
+JIRA
+Lombok
+Sonar Qube
+JMETER
+Swagger
+Redis
+Heroku Cloud
+
+Angular
++++++++
+What is Angular
+Angular Advantages
+Angular JS vs Angular
+Angulr Architecture
+Angular Env Setup
+Type Script
+Module in TS
+Variables
+Data Types
+Loops
+Functions
+Components
+Templates
+Directives
+Pipes
+Services
+DI
+Forms & validations
+Routes
+Ajax
+Boot Integration
+Mini Project Development
+
+Spring Boot - Mini Projects
++++++++++++++++++++++++++++
+Curd Operations App
+User Management (Register, Login, Unlock-Account, Forgot Pwd)
+Dynamic Search
+Reports Generation
+
+Microservices
+++++++++++++++
+What is Monolith Architecture
+Pros and Cons of Monolith
+Microservices Introduction
+Pros and Cons with Microservices
+Microservices Architecture
+Service Registry (Eureka Server)
+Inter Service Communication (FeignClient)
+Api Gateway (Cloud Gateway)
+Filters in Gateway
+Routes in Gateway
+Load Balancing
+Sleuth & Zipkin
+Admin Server & Client
+Mini Project Implementatioin using Microservices Architecture
+
+
+Reference Videos
++++++++++++++++++
+♨️ Spring Boot Actuators : https://youtu.be/lMDZ6dple9Q
+
+👉 Spring Boot Profiles : https://youtu.be/I8r858beW0o
+
+♨️Spring Boot with Security - By Mr. Ashok♨️
+Part-1 : https://youtu.be/p-nxpoHXhp8
+Part-2 : https://youtu.be/vNZ5H7zm3us
+Part-3 (JWT) : https://youtu.be/J-g0FYPHY-k
+
+♨️Spring Boot with Mongo DB - By Mr. Ashok♨️
+Part-01 : https://youtu.be/3qz8dRABscs
+Part-02 : https://youtu.be/JzAPqmnaKco
+Part-03 : https://youtu.be/kZOpf7kDiU8
+
+♨️JUnit-5 with Mocking - By Mr. Ashok♨️
+https://youtu.be/MEFoGR07qgw
+
+👉 Docker : https://www.youtube.com/watch?v=VO818de8sdk
+
+👉 Apache Kafka : https://youtu.be/VInk1_9vvCY
+
+👉 Spring Boot + AWS : https://youtu.be/PkZzHtSFMa0
+
+👉 Spring Cloud Config Server : https://youtu.be/NJh70xz_CXY
+
+
+Git Hub Repository
++++++++++++++++++++
+👉 https://github.com/ashokitschool/ashokit_weekend_workshops

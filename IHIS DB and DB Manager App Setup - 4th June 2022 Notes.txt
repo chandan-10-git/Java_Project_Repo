@@ -1,0 +1,83 @@
+MYSQL DB Setup In Local
+++++++++++++++++++++++++
+
+1) Install MySQL Server in your PC
+
+2) Install MySQL Workbench in your PC
+
+		MySQL Server : DB Server
+
+		MySQL Work Bench : DB Client
+
+							SQL
+		MySQL Workbench ------------> MySQL DB Server
+
+
+3) Open MySQL Workbench and Create DB Connection
+
+4) Create Database in MySQL DB
+
+			Query : create database ihis
+
+	Note: ihis is the name of database
+
+5) Use Database
+			
+			Query : use ihis
+
+6) Check tables available in the Database
+
+			Query : show tables
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Create DB Manager API
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+1) Create Spring Starter Project with below dependencies
+	
+			a) data-jpa
+			b) mysql-connector
+			c) lombok
+
+2) Configure Datasource properties in application.properties file
+
+3) Create Entity classes & Repository interfaces for all the tables
+
+4) Execute Maven Goals (clean & package)
+
+5) Install DB Manager as dependency in maven local repo using 'install goal'
+
+Note: Very db-manager dependency in maven local repo
+
+			(c://users/uname/.m2/repository)
+
+6) Copy DB-Manager dependency details
+
+
+Example
+---------
+	
+	<groupId>com.ashokit</groupId>
+	<artifactId>IHIS-DB-Manager</artifactId>
+	<version>1.0.RELEASE</version>
+
+Note: If we make any changes in DB-Manager then we have to execute 'clean install' goals again.
+
+--------------------------------------------------------------------------------------------------------------
+Admin API Development
+--------------------------------------------------------------------------------------------------------------
+
+1) Create Spring starter project with below dependencies
+
+			a) web-starter
+			b) devtools
+			c) lombok
+			d) mail-starter
+			e) actuator
+			f) db-manager
+			g) swagger & swagger-ui
+
+2) Develop functionality for Case Worker Account Management
+
+3) Develop Functionality for Plans Management
+
+-------------------------------------------------------------------------------------------------------------

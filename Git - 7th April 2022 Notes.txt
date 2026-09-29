@@ -1,0 +1,145 @@
+Version Control Tools
++++++++++++++++++++++
+
+-> In realtime, multiple people will get involved in project development
+
+-> Developers will be working from different locations
+
+Below are two common problems we will face in project development
+-----------------------------------------------------------------
+1) Code Integration
+2) Monitoring code changes (Who, When, Why and What)
+
+-> Version Control Tools providing solution for above two problems
+
+-> We have several version control tools in the market
+
+1) SVN (Outdated)
+2) GIT Hub
+3) Bit Bucket
+
+-> By using version control tool/sofware we will create a Repository
+
+-> Repository is a location which is used to store project source code. For Every Project one Repository will be created in realtime. Every Repository will have its own URL.
+
+-> Team Members will connect to Repository using Repository URL to perform Code Integrations.
+
+-> Repository will have monitored access 
+		(It will track all the changes like who, when, why and what)
+
+Note: Once we join in the project, team lead or team member will share project Repository URL with us.
+
+Note: We will perform Push and Pull operations in the Repository
+
+	Push means sending code from our system to Repository 
+	Pull means taking latest code from Repository to our System
+
+
+GitHub
+++++++
+-> Git Hub is a cloud provider which is giving hosting, storage services over the web
+
+-> We can create source code repositories in GitHub to store our project code
+
+-> Git Hub providing both free & licensed accounts
+
+		Free Accounts : Limited Functionality
+		Licensed Account : All Functionalities
+
+-> Git Hub will internally uses git as a version control software
+
+
+Environment Setup
+-----------------
+1) Create account in github.com  
+
+	URL : https://github.com/
+
+2) Download Git Client software & install it
+
+	URL : https://git-scm.com/downloads/win
+
+-> After installation, right click on the mouse and check it
+    (Git GUI and Git Bash options will be displayed that means installation success)
+
+
+Git Hub Repositories
+----------------------
+-> Git hub providing 2 types of Repositories
+
+		1) public repository
+		2) private repository
+
+-> public repository means everybody can access and we will choose who can commit to repo
+
+-> private repository means we will choose who can access and who can commit to repo
+
+
+Creating Git Repository
+-----------------------
+-> Login into your github account
+
+-> Go to Repositories tab and click on 'Create New Repository'
+
+-> Enter Repo name and select as 'Public Repo' and create it.
+
+Note: URL will be generated for the repository
+
+	Repo URL : https://github.com/ashokitschool/JRTP20-App1.git
+
+-> It will display commands to push project into repo
+
+$ git init
+$ git commit -m "first commit"
+$ git branch -M main
+$ git remote add origin https://github.com/ashokitschool/JRTP20-App1.git
+$ git push -u origin main
+
+
+
+Push Maven Project into above Git repo by following given commands
+------------------------------------------------------------------
+-> Go to Maven Project folder and open Git Bash
+	(Right click on Mouse -> Open Gitbash here)
+
+
+-> Execute below commands in git bash to introduce yourself to git
+
+$ git config --global user.name "your-uname"
+$ git config --global user.email "your-email"
+
+-> Execute below git commands to push project into repo
+
+$ git init
+$ git add --a
+$ git commit -m "first commit"
+$ git branch -M main
+$ git remote add origin <git-repo-url>
+$ git push -u origin main
+
+Note: It will ask credentials for first time...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

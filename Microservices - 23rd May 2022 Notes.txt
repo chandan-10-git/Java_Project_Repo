@@ -1,0 +1,113 @@
+Monolith vs Microservices
++++++++++++++++++++++++++
+
+-> We can develop one application in 2 ways
+
+			1) Monolith Architecture
+			2) Microservices Architecture
+
+-> Monolith Architecture means all the functionalities will be developed as single aplication
+
+Monolith Advantages
+--------------------
+1) Easy to develop
+2) Total source code at one place
+3) Easily We understand project functionality
+4) Easy to test
+
+Monolith Dis-Advantages
+-----------------------
+1) Maintence is very difficult
+2) If any change in code, whole project should be re-deployed
+3) Single Point Of Failure
+
+=> To overcome the problems of Monolith Architecture people are using Microservices Architecture
+
+-> Microservices is not a programming language
+-> Microservices is not a framework
+-> Microservices is not an api
+-> Microservices is an "Architectural Design Pattern"
+-> Using Microservices Architecture pattern we can develop application with loosely coupling
+-> In Microservices architecture we will develop several REST APIs
+
+
+Advantages of Microservices
+----------------------------
+1) Funcationlity dividing into multiple apis
+2) Faster Development
+3) Easy Maintenence
+4) Quick Releases
+5) Highly Scalable
+6) Bug Fixing Easy
+7) Technology independence
+
+Challenges with Microservices
+-----------------------------
+1) Bounded Context (Deciding no.of apis required and deciding api boundary)
+
+2) Lot of configurations
+
+	Ex: DataSource, SMTP, Kafka, Redis, Actuators etc...
+
+3) Visibility (We may not get change to work with all apis)
+
+
+Microservices Architecture
+---------------------------
+-> There is no fixed architecture for Microservices
+-> People are customizing Microservices Architecture based on their requirements
+
+
+1) Backend apis
+2) service registry
+3) api gateway
+
+
+
+
+Guys, 
+
+Tomorrow we will implement a POC on Microservices with 
+
+1) Service Registry
+2) Inter Service Communication
+3) Clod Gateway
+4) Load Balancing
+
+I am planning long session to complete our POC
+
+Note :  Class Timing 7:45 AM To 11 AM ( This timing for next 2 to 3 days) 
+
+Note: Join class from portal @7:45 AM IST
+
+Don't miss live class, bcz it is very important 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

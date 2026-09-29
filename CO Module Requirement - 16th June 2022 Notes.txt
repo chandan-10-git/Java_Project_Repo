@@ -1,0 +1,92 @@
+Correspondence (CO)
++++++++++++++++++++
+-> Correspondence is used to generate notices to citizens
+
+-> When citizen eligibility determined, ED module inserting one record into CO_TRIGGERS table with TRG_STATUS as pending
+
+-> CO api should retrieve all pending triggers and should generate notice based on eligiblity details and send that notice to citizen through email
+
+-> After sending Notice to citizen, store that notice in DB table and update TRG_STATUS as Completed
+
+
+CO_API BUSINESS LOGIC
+---------------------
+
+// Read all pending triggers from CO_TRIGGERS TABLE
+
+// Get Eligibility data for each trigger using Case Number from ELIGIBILITY_DTLS table
+
+// Generate PDF for trigger with Eligibility Data
+
+// Send Generated PDF to citizen email as an attachment
+
+// Store Generated PDF into CO_TRIGGERS table
+
+// Once PDF sent to email and stored in DB then update trigger status as Complted
+
+// Return api execution summary (total triggers, success count and failure count)
+
+
+
+
+
+1) Create Spring Boot application with below dependencies
+
+	-> web-starter
+	-> starter-data-jpa
+	-> h2 db	
+	-> starter-mail
+	-> open-pdf
+    -> swagger & swagger-ui
+	-> devtools
+
+2) Configure properties in application.yml file
+
+	 -> server-port
+	 -> datasource properties
+	 -> ORM properties
+	 -> SMTP properties
+
+3) Create Entities & Repositories for DB communication
+
+Note: CO-API will communicate with below 3 tables
+
+CO_TRIGGERS  ==> To get all pending triggers
+
+ELIGIBILITY_DTLS ==> To get citizen eligiblity based on case_number
+
+APP_REG  ===> To get citizen email id based on case_number
+
+	
+4) Create Service Interface with implementation
+
+public interface CoService {
+
+	public Map<String, Integer> generateNotices();
+
+}
+
+
+5) Create Rest Controller to handle request and response
+
+6) Create Swagger Configuration for documention
+
+7) Run the application and test it
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

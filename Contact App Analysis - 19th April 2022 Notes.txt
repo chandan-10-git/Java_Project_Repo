@@ -1,0 +1,62 @@
+
+
+Classes
++++++++++++
+
+Contact.java  (Entity class)
+------------------------------
+int cid   (PK variable : auto-generated)
+String name
+String email
+long phno
+String activeSw (to make record as active/in-active)
+
+ContactRepository.java (I)
+-------------------------
+interface ContactRepository extends JpaRepository {
+		
+}
+
+ContactService.java (I)
+-----------------------
+String upsert (Contact contact);  (polymorphic method)
+
+List<Contact> getAllContacts( );
+
+Contact getContact (int cid);
+
+String deleteContact (int cid);
+
+Note: 'upsert' means it is used for inserting and updating 
+	(if record already available then update else insert)
+
+ContactRestController.java
+---------------------------
+
+@PostMapping("/contact")
+ResponseEntity<String> contact (Contact contact);
+
+@GetMapping("/contacts")
+ResponseEntity<List<Contact>> getAllContacts( );
+
+@GetMapping("/contact/{cid}")
+ResponseEntity<Contact> getContact(@PathVariable int cid);
+
+@DeleteMapping("/contact/{cid}")
+ResponseEntity<String> deleteContact(@PathVariable int cid);
+
+Note: Every RestController method should be binded to Http Protocol Method
+
+----------------------------------------------------------------------------------------------
+
+Assignement : How to use H2 Database in Spring Boot
+
+-----------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+

@@ -1,0 +1,135 @@
+Today's session : SDLC
+++++++++++++++++++++++
+
+-> SDLC stands for software development life cycle
+
+-> SDLC represents life cycle of software application (end to end procedure)
+
+-> SDLC contains several phases like below
+
+1) Requirements Gathering
+2) Requirements Analysis
+3) Designing / Planning
+4) Development / Implementation
+5) Testing
+6) Deployment
+7) Maintenence / Support
+
+-> There are several SDLC methodologies available in the market
+
+1) Waterfall Methodology
+2) V-Methodology
+3) Spiral Model
+4) Agile Methodology  (Trending)
+
+
+Waterfall Methodology
+---------------------
+-> This is the first methodology which introduced in the market
+-> Waterfall is linear methodology (step by step process)
+-> In this methodology after one phase is completed then we will go for next phase
+-> Waterfall methodology will move only in forward direction
+-> Changing requirements in the middle is not possible
+-> Client involvement will be very less in this model
+-> Client will see the whole project at the last stage
+
+Note: Requirements & Budget is fixed in waterfall model.
+
+-> Waterfall Model is not suitable in this competitive world because now a days as per business demands requirements are keep on changing.
+
+-> To overcome this problems of waterfall model we are using Agile Model
+
+
+Agile Methodology
++++++++++++++++++
+-> Agile is a iterative model which encourages development and testing activities parallely
+
+-> Development and Testing will happen through out development life cycle of the project
+
+-> In Agile methodology, Requirements & Budget is not fixed
+
+-> Here we don't deliver entire project in single shot
+
+-> We will divide project into multiple releases
+
+Note: Delivering the project to client is called as Release.
+
+Example
+-------
+-> Client has given 100 requirements
+
+-> We will divide requirements into multiple releases
+
+	RELEASE - 1  (20 REQUIREMENTS WE WILL DELIVER)
+	RELEASE - 2  (30 REQUIREMENTS WE WILL DELIVER)
+	RELEASE - 3  (25 REQUIREMENTS WE WILL DELIVER)
+	RELEASE - 4  (25 REQUIREMENTS WE WILL DELIVER)
+
+Note: For every release, we will do planning, designing, implementation, testing and launch. It is a iterative approach.
+
+Note: For every release client involvement will be there and we will take client feedback.
+
+Note: Requirements & Budget is not fixed here.
+
+
+Agile Terminology
++++++++++++++++++
+Product Owner : He is responsible to deliver project to client
+
+Scrum Master : He is responsible to manage agile teams (Scheduling meetings, Work priorities)
+
+Tech Lead : Seniour Team Member and responsible for resolving technial issues facing in project
+
+Team Members : Developers and Testers will be available in the Agile team.
+	       Agile team size is 7 to 10  members only.
+
+
+
+Story : 
++++++++
+-> Story means a task
+-> Every story contains story points
+-> Story points represents duration to complete the task
+
+Backlog
+++++++++
+-> The stories which are pending to complete are called as Backlog Stories
+-> To identify pending works Scrum master will conduct Backlog Grooming meeting
+-> All the team members should participate in backlog grooming and create stories in backlog.
+
+Sprint Planning
++++++++++++++++
+-> Sprint planning meeting will be conducted by scrum master 
+-> This is used to prioritize the stories for release which are in backlog
+
+Sprint
++++++++
+-> Sprint means the no.of stories that we are going to implement
+-> Every Sprint will have 2 weeks duration
+-> With in the sprint duration we have to complete stories which are added to sprint
+
+Scrum
++++++
+-> Scrum is a daily meeting which will be conducted by scrum master
+-> In Scrum Meeting every team member should provide work updates to scrum master
+   (Which story you have taken, what is the status, any issues you are facing)
+
+
+Retrospective
++++++++++++++
+-> Once Sprint is completed scrum master will conduct RetroSpective meeting
+-> In this meeting we will discuss about our work in the sprint
+
+		- Achievements
+		- Mistakes
+		- Lessons Learnt
+		- Improvements
+		- New Ideas
+
+
+
+Note: Agile project work will be managed using JIRA Software.
+
+-> JIRA software is developed by Atlasian
+
+

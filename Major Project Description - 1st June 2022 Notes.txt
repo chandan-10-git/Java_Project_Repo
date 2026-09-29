@@ -1,0 +1,200 @@
+Major Project Discussion
+++++++++++++++++++++++++
+
+-> In USA 50+ states are available
+
+-> Every state will have state goverment
+
+-> For all the states they have Federal Govt
+
+Note: USA federal govt & state govt providing some health & insurance benefits to USA citizens
+
+-> To provide health & insurance benefits, USA govt needs one software project.
+
+-> We are developing a state govt project For New Jersey State
+
+--------------------------------------------------------------------------------------------------
+Client : New Jersey State Govt
+
+Project Name : Integrated Health Insurance System (IHIS)
+
+Type : Intranet Project (This project is accessible with in New Jersey state DHS Offices)
+
+Note: DHS stands for Department of Health Insurance System
+
+-> DHS department employees are called as Case Workers. Only Case Workers can access our IHIS application with in DHS offices.
+
+Project Description
+--------------------
+-> The main aim of IHIS is to provide fully integrated health insurance system for New Jersey state govt to provide health & insurance plans for New Jersey State Citizens.
+
+-> Using this project New Jersey State govt providing below plans for New Jersey State Citizens
+
+			1) SNAP (Supplemental Nutrition Assistance Program)
+
+			2) CCAP (Child Care Assistance Program)
+
+			3) Medicaid  (Health plan)
+
+			4) Medicare (Health Plan)
+
+			5) QHP  (Qualified health plan, Commercial )
+
+			6) NJW ( New Jersey Works - Unemployment Plan )
+
+
+-------------------------------------------------------------------------------------------------
+
+-> SNAP is applicable for no or low income families (it is food stamp program)
+		
+			Monthly Income <= 300 $
+
+-> CCAP is applicable for families who are having kids with less income
+			
+			Kids Age <=16
+			Monthly Income <= 300 $
+		
+-> Medicaid applicable for people who are having limited income & resources
+
+			Monthly Income <=300 $
+			Monthly Property Income <=200 $
+
+-> Medicare applicable for people who are above 65 years age
+
+		 	Citizen Age >= 65 Years
+
+-> QHP is commercial plan (People should purchase)
+
+-> NJW applicable for Unemployees who are graudated
+
+				Graduation Status : COMPLETED
+				EMPLOYMENT_STATUS ; UN_EMPLOYED
+
+--------------------------------------------------------------------------------------------------
+
+-> New Jersey State citizens should go to nearest DHS office to apply for the plan
+
+-> In DHS offices Case Workers will be available
+
+-> Citizen should talk to case worker to apply for the plan
+
+-> Case Worker will us IHIS application to apply plan for the citizen
+
+-> IHIS application will decide that citizen is elgible for the plan or not based on conditions
+
+-> If citizen is eligble, then citizen will get benefit amount on monthly basis
+
+-------------------------------------------------------------------------------------------------
+IHIS Project Modules
+--------------------------------------------------------------------------------------------------
+
+Admin
+Application Registration (AR)
+Data Collection (DC)
+Eligibility Determination (ED)
+Correspondence (CO)
+Benefit Issuance (BI)
+Reports
+
+-> Admin module will deal with Case Worker Accounts & Plans Management
+
+-> Application Registration Module will verify citizen belongs to which state using citizen SSN
+	
+			(Social Security Number)
+			(SSN will be provided by SSA - Federal Govt Dept in USA)
+
+Note: If citizen belongs to New Jersey then only citizen can apply for Plan other wise IHIS will not accept that citizen application.
+
+-> Data Collection Module is used to collect citizen data to apply for the plan
+
+-> Eligibility Determination module will verify citizen is elgible for the applied plan or not based on plan conditions (every plan will have business conditions)
+
+-> Correspondence module is used to send Notices to citizens
+
+			 (Approved Notice & Denied Notice & Terminated Notice)
+
+-> Benefit Issuance Module will send benefit amount to Plan Approved Citizens
+
+-> Reports module is used to generate reports of our application.
+-------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

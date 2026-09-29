@@ -1,0 +1,99 @@
+Project Lombok
+++++++++++++++
+
+-> Project Lombok is used to avoid boiler plate code in our model classes
+
+-> In every model class we will write below code
+
+	1) variables
+	2) setter methods
+	3) getter methods
+	4) no-args constructor
+	5) All Args Constructor
+	6) equals ( ) method
+	7) hashcode( ) method
+	8) toString( ) method
+
+-> If we are writing same code in multiple classes then it is called as boiler plate code 	(duplicate code / redudant code)
+
+-> By Using project lombok we can avoid boiler plate code in our project
+
+-> Project Lombok provided annotations for generating generic code for model classes
+
+@Setter : It will generate setter methods for all variables in the class
+
+@Getter : It will generate getter methods for all variables in the class
+
+@NoArgsConstructor : It will generate zero param constructor for class
+
+@Equals : Generates equals( ) method
+
+@HashCode : It generates hashCode( ) Method
+
+@ToString : Generates toString ( ) method for our class
+
+@Data : It is equal to all the above annotations
+
+@AllArgsConstructor : It generates Args constructor for our class
+----------------------------------------------------------------------------------------------
+
+Working with Project Lombok
+++++++++++++++++++++++++++++
+Step-1) Add Lombok Dependency in Project pom.xml file
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.22</version>
+			<scope>provided</scope>
+		</dependency>
+
+Step-2) Go to Lombok Jar Location (In Maven Local Repo you can find)
+
+	Location : C:\Users\<uname>\.m2\repository\org\projectlombok\lombok\1.18.22
+
+Step-3) Execute Lombok Jar in cmd with below command
+	
+	cmd > java -jar <jar-file-name>  (it will open lombok installer popup)
+
+	-> Specify IDE location upto STS.exe/eclipse.exe
+	-> Click on Install/Update
+	-> Once installation completed then close installer
+
+Step-4) Re-Start IDE
+
+Step-5) Use Lombok annotations in model classes (@Data)
+
+Step-6) Check lombok working or not by opening outline of our Model class
+
+---------------------------------------------------------------------------------------------
+Note: Step-2, Step-3 and Step-4 required only for first time.
+----------------------------------------------------------------------------------------------
+
+Watch Eclipse Shortcuts Video : https://youtu.be/TvYMey5SYa8
+
+Watch Eclipse Code Debugging Video : https://youtu.be/2WxsClYhreE
+--------------------------------------------------------------------------------------------
+
+Project Lombok
+Eclipse Shortcuts
+Code Debugging in IDE
+
+----------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,84 @@
+Code Coverage
++++++++++++++
+
+-> Code Coverage is the process of measuring how many lines of code is executed as part of Unit testing
+
+-> As per industry standard every project should have minimum 80% of coverage
+
+-> We can generate code coverage report using "Jacoco" plugin
+
+-> By seeing code coverage report we can identify which lines are executed in unit testing and which lines are not executed in unit testing
+
+-> By seeing code coverage report we can improve our unit test scenarios
+
+-> In project for few classes unit testing is not required then such classes or packages we can exclude from Code Coverage report using <exclude/> option
+
+
+-> To generate code coverage report add 'jacoco' plugin in pom.xml file
+
+-> Jacoco plugin is associated with Maven 'test' goal.
+
+-> When Maven 'test' goal is executed thean 'Jacoco' plugin will execute and it will generate the report.
+
+-> Jacoco Report Location :   <project-folder> / target / site / jacoco / index.html
+
+-> Open index.html in browser then we can see Jacoco report
+
+
++++++++++++++++++++++++++++++++++ add below plugin in pom.xml file++++++++++++++++++++++++++++++++++
+
+
+			<plugin>
+				<groupId>org.jacoco</groupId>
+				<artifactId>jacoco-maven-plugin</artifactId>
+				<version>0.8.2</version>
+				<configuration>
+					<excludes>
+						<exclude>in/ashokit/entities/**</exclude>
+						<exclude>in/ashokit/bindings/**</exclude>
+						<exclude>in/ashokit/constants/**</exclude>
+						<exclude>in/ashokit/props/**</exclude>
+						<exclude>in/ashokit/exception/**</exclude>
+						<exclude>in/ashokit/config/**</exclude>
+					</excludes>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>prepare-agent</goal>
+						</goals>
+					</execution>
+					<execution>
+						<id>report</id>
+						<phase>test</phase>
+						<goals>
+							<goal>report</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+-> For New Joinees below tasks will be assigned in the project for 2 to 3 months of time
+
+1) Unit Test implementation task
+
+2) Code Coverage Improvement tasks
+
+3) Sonar Fixes
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+
+
+
+
+
+
+
+

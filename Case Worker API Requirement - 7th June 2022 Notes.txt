@@ -1,0 +1,32 @@
+Case Worker API
+++++++++++++++++
+
+-> We should have below functionality in Case Worker API
+
+1) Login
+
+2) Forgot Pwd
+
+3) Dashboard
+
+4) Update Profile
+
+-> In Login Screen, Case Worker will enter Email and Pwd to login. If given credentials are valid then login should be success and dashboard page should be displayed.
+
+-> On Login Success, In Dashboard page we should display 4 cards with below data
+
+		Total Plans : <Count>
+	
+		Total Applicatons Recieved : <count>
+
+		Approved Citizens Count : <count>
+
+		Denied Citizens Count : <count>
+
+-> If given credentials are invalid then error message will be displayed
+		
+-> In Forgot Pwd page, Case worker will enter email-id, if that email is registered in our application then application will retrieve pwd from DB and will send to Case Worker in mail. If given email id is not registered then application will display error message.
+
+5) Update Profile means Case Worker can edit and update his account details.
+
+
